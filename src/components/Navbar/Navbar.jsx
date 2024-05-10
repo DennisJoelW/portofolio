@@ -22,7 +22,7 @@ export const NavBar = () => {
 
     return(
       <div className=" w-full font-poppins text-white ">
-        <div className=" max-w-[1440px] w-full h-[90px] mx-auto flex flex-row items-center justify-between md:px-8 px-4">
+        <div className=" max-w-[1300px] w-full h-[90px] mx-auto flex flex-row items-center justify-between md:px-8 px-4">
           <h1 className=" justify-start"></h1>
 
           <div className=" md:flex flex-row hidden">
