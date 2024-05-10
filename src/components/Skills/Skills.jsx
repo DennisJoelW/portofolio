@@ -12,7 +12,7 @@ const Skills = () => {
     
   return (
     <div className='  flex font-poppins mx-auto w-full items-center mt-16'>
-      <div className=' flex flex-col text-white max-w-[1300px] w-full mx-auto h-[90vh] items-center md:px-8 px-3'>
+      <div className=' flex flex-col text-white max-w-[1300px] w-full mx-auto h-[90vh] items-center md:px-9 px-3'>
 
          <img src={scroll_wheel} alt="" className=' w-[100px] h-auto md:mb-20 mb-6' />
 
