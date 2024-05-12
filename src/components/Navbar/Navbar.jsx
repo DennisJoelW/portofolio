@@ -22,7 +22,7 @@ export const NavBar = () => {
 
     return(
       <div className=" w-full font-poppins text-white ">
-        <div className=" max-w-[1300px] w-full h-[90px] mx-auto flex flex-row items-center justify-between md:px-9 px-4">
+        <div className=" max-w-[1380px] w-full h-[90px] mx-auto flex flex-row items-center justify-between pl-4 pr-4 md:pl-10 md:pr-10">
           <h1 className=" justify-start"></h1>
 
           <div className=" md:flex flex-row hidden">
@@ -43,7 +43,7 @@ export const NavBar = () => {
             {menu ? <IoMdClose size={33} className=' cursor-pointer' onClick={closeMenu} color="#1ec8c8"/> :<IoMenuOutline size={33} onClick={openMenu} className=' cursor-pointer' color="#1ec8c8"/>}
           </div>
 
-          <div className={menu ? "fixed left-0 top-0 w-[70%] border-r border-r-[#1ec8c8] border-b border-b-[#1ec8c8] h-full bg-[hsl(216,6%,5%)] ease-linear duration-[350ms] block md:hidden" : " fixed left-[-100%]"}>
+          <div className={menu ? " z-10 fixed left-0 top-0 w-[70%] border-r border-r-[#1ec8c8] border-b border-b-[#1ec8c8] h-full bg-[hsl(216,6%,5%)] ease-linear duration-[350ms] block md:hidden" : " fixed left-[-100%]"}>
             <ul className=" flex flex-col gap-10 text-xl mt-20 items-center">
                 <li className=" hover:text-[#1ec8c8] cursor-pointer ease-linear duration-200 hover:scale-110 ">Home</li>
                 <li className=" hover:text-[#1ec8c8] cursor-pointer ease-linear duration-200 hover:scale-110 ">Skills</li>
