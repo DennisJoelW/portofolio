@@ -3,6 +3,8 @@ import { useState } from "react";
 import nova_img from "../../assets/NOVA.png"
 import resepku_img from "../../assets/RESEPKU.png"
 import { useNavigate } from 'react-router-dom';
+import nova_img2 from "../../assets/novaa.png";
+import sneakerz_img from "../../assets/sneakerz.png"
 
 const Project = () => {
 
@@ -49,35 +51,35 @@ const Project = () => {
         <div className=' flex flex-col text-white max-w-[1380px] w-full mx-auto h-[100vh] items-center pl-4 pr-4 md:pl-10 md:pr-10'>
           <h2 className=" block text-center md:text-5xl text-3xl uppercase font-semibold md:mb-20 mb-10">MY PROJECTS</h2>
 
-          <div className=' w-full flex md:flex-row flex-col gap-8'>
+          <div className=' w-full flex md:flex-row flex-col gap-12'>
 
           <div onClick={() => navigateClick('/ProjectDetail')}
-              className=' md:w-[28%] w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer overflow-hidden ' 
+              className='md:w-1/2 w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer overflow-hidden' 
               onMouseOver={() => setHover1(true)} 
               onMouseOut={() => setHover1(false)}>
 
-              <img src={nova_img} className={ hover1 ? "rounded-t-2xl  transition-transform scale-105 duration-300 h-[82%] object-center object-cover" : " object-center object-cover h-[82%] rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
-              <h2 className={`px-6 mt-4 mb-4 ${hover1 ? "text-[#1ec8c8] transition-transform duration-300 h-[18%]" : "h-[18%] text-white transition-transform duration-300"}`}>Nova | Crypto Exchange Landing Page</h2>
+              <img src={sneakerz_img} className={ hover1 ? "rounded-t-2xl  transition-transform scale-105 duration-300" : "rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
+              <h2 className={`my-4 px-6 ${hover1 ? "text-[#1ec8c8] transition-transform duration-300" : " text-white transition-transform duration-300"}`}>Sneakerz | Web App</h2>
             
           </div>
           
-          <div onClick={() => navigateClick('/ProjectDetail')}
+          {/* <div onClick={() => navigateClick('/ProjectDetail')}
               className=' md:w-[28%] w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer overflow-hidden ' 
-              onMouseOver={() => setHover1(true)} 
-              onMouseOut={() => setHover1(false)}>
+              onMouseOver={() => setHover2(true)} 
+              onMouseOut={() => setHover2(false)}>
 
-              <img src={nova_img} className={ hover2 ? "rounded-t-2xl  transition-transform scale-105 duration-300 h-[82%] object-center object-cover" : " object-center object-cover h-[82%] rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
-              <h2 className={`px-6 mt-4 mb-4 ${hover2 ? "text-[#1ec8c8] transition-transform duration-300 h-[18%]" : "h-[18%] text-white transition-transform duration-300"}`}>Nova | Crypto Exchange Landing Page</h2>
+              <img src={nova_img2} className={ hover2 ? "rounded-t-2xl  transition-transform scale-105 duration-300 md:h-[82%] object-center object-cover" : " object-center object-cover md:h-[82%] rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
+              <h2 className={`px-6 my-4 ${hover2 ? "text-[#1ec8c8] transition-transform duration-300 md:h-[18%]" : "md:h-[18%] text-white transition-transform duration-300"} md:text-[16px]`}>Nova | Crypto Landing Page</h2>
             
-          </div>
+          </div> */}
           
           <div onClick={() => navigateClick('/ProjectDetail')}
-              className=' md:w-[46%]  w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer overflow-hidden ' 
+              className=' md:w-1/2  w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer overflow-hidden ' 
               onMouseOver={() => setHover3(true)} 
               onMouseOut={() => setHover3(false)}>
 
               <img src={resepku_img} className={ hover3 ? "rounded-t-2xl  transition-transform scale-105 duration-300" : "rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
-              <h2 className={`px-6 mt-4 mb-4 ${hover3 ? "text-[#1ec8c8] transition-transform duration-300" : "text-white transition-transform duration-300"}`}>Nova | Crypto Exchange Landing Page</h2>
+              <h2 className={` mt-4 px-6 ${hover3 ? "text-[#1ec8c8] transition-transform duration-300" : " text-white transition-transform duration-300"}`}>ResepKu | Food Recipe Seeker App</h2>
             
           </div>
 
