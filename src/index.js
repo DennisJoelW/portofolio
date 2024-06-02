@@ -6,8 +6,8 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode basename="/portofolio">
-    <BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter  basename="/portofolio">
       <App />
     </BrowserRouter>
   </React.StrictMode>
