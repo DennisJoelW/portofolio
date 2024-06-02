@@ -16,10 +16,10 @@ function App() {
         <ScrollToTop/>
 
         <Routes>
-          <Route path="https://dennisjoelw.github.io/portofolio/" element={<Home />} />
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
 
-          <Route path="https://dennisjoelw.github.io/portofolio/ProjectDetail" element={<ProjectDetail />} />
+          <Route path="/ProjectDetail" element={<ProjectDetail />} />
           <Route path="/Resepku" element={<Resepku />} />
         </Routes>
     </div>
