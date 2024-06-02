@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portofolio/static/css/main.86c048f7.css",
+    "main.js": "/portofolio/static/js/main.42c634f3.js",
+    "static/media/RESEPKU.png": "/portofolio/static/media/RESEPKU.47a898890e283d26472a.png",
+    "static/media/NOVA.png": "/portofolio/static/media/NOVA.096c83db15e4f2f13116.png",
+    "static/media/sneakerz.png": "/portofolio/static/media/sneakerz.0f5039f9cf37a92757ba.png",
+    "static/media/sneakerz_homepage.png": "/portofolio/static/media/sneakerz_homepage.8f79661afc8af43b3ca9.png",
+    "static/media/sneakerz3.png": "/portofolio/static/media/sneakerz3.67c7a0aeb99ec3d33583.png",
+    "static/media/novaa.png": "/portofolio/static/media/novaa.0e54f462515e7b4a5647.png",
+    "static/media/sneakerz2.png": "/portofolio/static/media/sneakerz2.d0fbea0163b499555d78.png",
+    "static/media/nova_token.png": "/portofolio/static/media/nova_token.4d04e5234ed3ac7463a4.png",
+    "static/media/down_arrow.gif": "/portofolio/static/media/down_arrow.660c340e2f365dac5d58.gif",
+    "static/media/kotlin.png": "/portofolio/static/media/kotlin.32c32b243976d2f2e480.png",
+    "index.html": "/portofolio/index.html",
+    "main.86c048f7.css.map": "/portofolio/static/css/main.86c048f7.css.map",
+    "main.42c634f3.js.map": "/portofolio/static/js/main.42c634f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86c048f7.css",
+    "static/js/main.42c634f3.js"
+  ]
+}
