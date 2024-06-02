@@ -59,7 +59,7 @@ const Skills = () => {
                   <div className='md:w-1/3 w-full py-16 px-10  bg-opacity-50 bg-black rounded-2xl'>
                       <RiCodeSSlashLine size={70} className=' mb-4'/>
                       <h3 className='text-[#1ec8c8] md:text-2xl text-xl font-medium mb-4'>Front-End Development</h3>
-                      <p className='text-justify md:pr-5 text-[16px]'>Proficient in creating and designing dynamic web applications with React JS and Tailwind CSS to deliver modern front end design.</p>
+                      <p className='text-justify md:pr-5 text-[16px]'>Proficient in creating and designing dynamic web applications with React JS and Tailwind CSS to deliver modern front end design. Currently learning React Native for mobile front-end development.</p>
                   </div>
 
                   <div className='md:w-1/3 w-full py-16 px-10 bg-opacity-50 bg-black rounded-2xl'>
