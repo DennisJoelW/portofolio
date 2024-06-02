@@ -6,6 +6,9 @@ import express_logo from "../../assets/express_logo.png"
 import postgre_logo from "../../assets/postgre_logo.png"
 import bootstrap_logo from "../../assets/bootstrap_logo.png"
 import sneakerz_homepage from "../../assets/sneakerz_homepage.png"
+import sneakerz2 from "../../assets/sneakerz2.png"
+import sneakerz3 from "../../assets/sneakerz3.png"
+
 
 const Tech = (props) => {
   return (
@@ -22,8 +25,8 @@ const ProjectDetail = () => {
     <div>
 
       <NavBar />
-      <div className=' flex font-poppins w-full items-center mt-12'>
-          <div className=' flex md:flex-row flex-col text-white max-w-[1380px] w-full mx-auto h-[50vh] pl-4 pr-4 md:pl-10 md:pr-10 md:gap-16 gap-10 mt-2'>
+      <div className=' flex flex-col font-poppins w-full items-center mt-4'>
+          <div className=' flex md:flex-row flex-col text-white max-w-[1320px] w-full mx-auto md:h-[45vh] pl-4 pr-4 md:pl-10 md:pr-10 md:gap-16 gap-10 mt-2'>
 
             <div className=' md:w-[46%] w-full flex flex-col justify-center'>
                 <h1 className=' md:text-5xl text-[38px] font-semibold'>Sneakerz App</h1>
@@ -50,9 +53,16 @@ const ProjectDetail = () => {
 
 
           </div>
-      </div>
 
-      
+          <div className=' flex flex-col text-white max-w-[1320px] w-full mx-auto h-[50vh] pl-4 pr-4 md:pl-10 md:pr-10 md:gap-16 gap-10 md:mt-1 mt-16 items-center mb-10 pb-10'>
+            <img src={sneakerz_homepage} alt="" className=' shadow-lg rounded-lg' />
+            <img src={sneakerz2} alt="" className=' shadow-lg rounded-lg' />
+            <img src={sneakerz3} alt="" className=' shadow-lg rounded-lg' />
+          </div>
+
+
+
+      </div>
 
     </div>
   )
