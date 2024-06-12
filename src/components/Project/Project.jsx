@@ -103,7 +103,7 @@ const Project = () => {
                 onMouseOver={() => setHover4(true)} 
                 onMouseOut={() => setHover4(false)}>
 
-                <img src className={ hover4 ? "rounded-t-2xl  transition-transform scale-105 duration-300 md:h-[82%] object-center object-cover" : " object-center object-cover md:h-[82%] rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
+                <img className={ hover4 ? "rounded-t-2xl  transition-transform scale-105 duration-300 md:h-[82%] object-center object-cover" : " object-center object-cover md:h-[82%] rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
                 <h2 className={`px-6 my-3 ${hover4 ? "text-[#1ec8c8] transition-transform duration-300 md:h-[18%]" : "md:h-[18%] text-white transition-transform duration-300"} md:text-[16px]`}>Coming soon</h2>
                 
               </div>
