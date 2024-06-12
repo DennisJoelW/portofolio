@@ -38,17 +38,17 @@ const Skills = () => {
 
     
   return (
-    <div className='  flex font-poppins mx-auto w-full items-center mt-16 mb-16'>
-      <div className=' flex flex-col text-white max-w-[1380px] w-full mx-auto md:h-[100vh] items-center pl-4 pr-4 md:pl-10 md:pr-10 py-8 '>
+    <div className='  flex font-poppins mx-auto w-full items-center mt-16 mb-38'>
+      <div className=' flex flex-col text-white max-w-[1320px] w-full mx-auto md:h-[100vh] h-80vh items-center pl-4 pr-4 md:pl-10 md:pr-10 py-8 '>
 
-         <img src={scroll_wheel} alt="" className=' w-[100px] h-auto md:mb-20 mb-6' />
+         <img src={scroll_wheel} alt="" className=' w-[100px] h-auto md:mb-12 mb-6' />
 
          <h2 className="text-center md:text-5xl text-3xl uppercase font-semibold md:mb-14 mb-8">MY SKILLS</h2>
 
  
          <ScrollAnimation animateIn='bounceInLeft' className=' md:flex hidden' >
 
-              <div className=' flex md:flex-row flex-col w-full items-stretch md:gap-8 gap-5 justify-center'>
+              <div className=' flex md:flex-row flex-col w-full items-stretch gap-5  md:gap-8 justify-center'>
 
                   <div className='md:w-1/3 w-full py-16 px-10 bg-opacity-50 bg-black rounded-2xl'>
                       <SiAndroidstudio size={68} className=' mb-4' />

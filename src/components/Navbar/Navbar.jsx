@@ -31,7 +31,7 @@ export const NavBar = () => {
 
     return(
       <div className=" w-full font-poppins text-white ">
-        <div className=" max-w-[1380px] w-full h-[90px] mx-auto flex flex-row items-center justify-between pl-4 pr-4 md:pl-10 md:pr-10">
+        <div className=" max-w-[1320px] w-full h-[90px] mx-auto flex flex-row items-center justify-between pl-4 pr-4 md:pl-10 md:pr-10">
           <h1 className=" justify-start"></h1>
 
           <div className=" md:flex flex-row hidden">
