@@ -55,11 +55,11 @@ const Project = () => {
 
 
   return (
-    <div className='flex font-poppins w-full items-center mt-28 mb-20'>
+    <div className='flex font-poppins w-full items-center md:mt-28 mt-12 mb-20'>
         <div className=' flex flex-col text-white max-w-[1320px] w-full mx-auto h-[100vh] items-center pl-4 pr-4 md:pl-10 md:pr-10'>
           <h2 className=" block text-center md:text-5xl text-3xl uppercase font-semibold mb-10 mt-10">MY PROJECTS</h2>
 
-          <div className=' w-full flex md:flex-row flex-col gap-12'>
+          <div className=' w-full flex md:flex-row flex-col md:gap-8 gap-8'>
 
             <div onClick={() => navigateClick('/ProjectDetail')}
                 className='md:w-1/2 w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer overflow-hidden justify-center items-center flex flex-col' 
@@ -86,10 +86,10 @@ const Project = () => {
 
           </div>
 
-          <div className=' w-full flex md:flex-row flex-col gap-8 mt-12'>
+          <div className=' w-full flex md:flex-row flex-col gap-8 md:mt-12 mt-8'>
 
               <div onClick={() => visitWeb('https://dennisjoelw.github.io/nova_exchange/')}
-                className=' md:w-1/3 w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer overflow-hidden ' 
+                className=' md:w-1/3 w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer md:overflow-hidden ' 
                 onMouseOver={() => setHover2(true)} 
                 onMouseOut={() => setHover2(false)}>
 
@@ -99,7 +99,7 @@ const Project = () => {
               </div>
 
               <div onClick={() => navigateClick('/')}
-                className=' md:w-1/3 w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer overflow-hidden ' 
+                className=' md:w-1/3 w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer md:overflow-hidden ' 
                 onMouseOver={() => setHover4(true)} 
                 onMouseOut={() => setHover4(false)}>
 
@@ -109,7 +109,7 @@ const Project = () => {
               </div>
 
               <div onClick={() => navigateClick('/')}
-                className=' md:w-1/3 w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer overflow-hidden ' 
+                className=' md:w-1/3 w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer md:overflow-hidden ' 
                 onMouseOver={() => setHover5(true)} 
                 onMouseOut={() => setHover5(false)}>
 
