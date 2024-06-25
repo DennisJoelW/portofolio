@@ -98,13 +98,13 @@ const Project = () => {
                 
               </div>
 
-              <div onClick={() => navigateClick('/')}
+              <div onClick={() => navigateClick('/Sneakerz')}
                 className=' md:w-1/3 w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer md:overflow-hidden ' 
                 onMouseOver={() => setHover4(true)} 
                 onMouseOut={() => setHover4(false)}>
 
                 <img className={ hover4 ? "rounded-t-2xl  transition-transform scale-105 duration-300 md:h-[82%] object-center object-cover" : " object-center object-cover md:h-[82%] rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
-                <h2 className={`px-6 my-3 ${hover4 ? "text-[#1ec8c8] transition-transform duration-300 md:h-[18%]" : "md:h-[18%] text-white transition-transform duration-300"} md:text-[16px]`}>Coming soon</h2>
+                <h2 className={`px-6 my-3 ${hover4 ? "text-[#1ec8c8] transition-transform duration-300 md:h-[18%]" : "md:h-[18%] text-white transition-transform duration-300"} md:text-[16px]`}>Sneakerz | React Native App</h2>
                 
               </div>
 
