@@ -6,6 +6,8 @@ import { useNavigate } from 'react-router-dom';
 import nova_img2 from "../../assets/novaa.png";
 import sneakerz_img from "../../assets/sneakerz.png"
 import sneakerz_3 from "../../assets/sneakerz3.png"
+import sneakerz_ios from '../../assets/SNEAKERZ_MOBILE.png'
+import sneakerz_ios2 from '../../assets/SNEAKERZ_MOBILE_2.png'
 import nova_token from "../../assets/nova_token.png"
 
 const Project = () => {
@@ -103,7 +105,7 @@ const Project = () => {
                 onMouseOver={() => setHover4(true)} 
                 onMouseOut={() => setHover4(false)}>
 
-                <img className={ hover4 ? "rounded-t-2xl  transition-transform scale-105 duration-300 md:h-[82%] object-center object-cover" : " object-center object-cover md:h-[82%] rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
+                <img src={sneakerz_ios} className={ hover4 ? "rounded-t-2xl  transition-transform scale-105 duration-300 md:h-[82%] object-center object-cover" : " object-center object-cover md:h-[82%] rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
                 <h2 className={`px-6 my-3 ${hover4 ? "text-[#1ec8c8] transition-transform duration-300 md:h-[18%]" : "md:h-[18%] text-white transition-transform duration-300"} md:text-[16px]`}>Sneakerz | React Native App</h2>
                 
               </div>
@@ -114,7 +116,7 @@ const Project = () => {
                 onMouseOut={() => setHover5(false)}>
 
                 <img  className={ hover5 ? "rounded-t-2xl  transition-transform scale-105 duration-300 md:h-[82%] object-center object-cover" : " object-center object-cover md:h-[82%] rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
-                <h2 className={`px-6 my-3 ${hover5 ? "text-[#1ec8c8] transition-transform duration-300 md:h-[18%]" : "md:h-[18%] text-white transition-transform duration-300"} md:text-[15px]`}>Learning React Native</h2>
+                <h2 className={`px-6 my-3 ${hover5 ? "text-[#1ec8c8] transition-transform duration-300 md:h-[18%]" : "md:h-[18%] text-white transition-transform duration-300"} md:text-[15px]`}>Coming soon</h2>
                 
               </div>
 

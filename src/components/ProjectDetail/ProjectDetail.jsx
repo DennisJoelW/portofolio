@@ -29,7 +29,7 @@ const ProjectDetail = () => {
           <div className=' flex md:flex-row flex-col text-white max-w-[1320px] w-full mx-auto md:h-[45vh] pl-4 pr-4 md:pl-10 md:pr-10 md:gap-16 gap-10 mt-2'>
 
             <div className=' md:w-[46%] w-full flex flex-col justify-center'>
-                <h1 className=' md:text-5xl text-[38px] font-semibold'>Sneakerz App</h1>
+                <h1 className=' md:text-5xl text-[38px] font-semibold'>Sneakerz Web App</h1>
                 <h2 className=' mt-2 text-[#1ec8c8] text-[18px] '>Web Development</h2>
                 <p className=' mt-4 text-justify text-[17px]'>Full-stack sneakers store web app with EJS, Express.js, PostgreSQL, and Axios. Features include sneakers stock view, admin dashboard to input, edit, delete sneakers stocks.</p>
                 <hr className='mt-8 ' style={{ borderColor: '#1ec8c8', borderWidth: '2px' }} />
