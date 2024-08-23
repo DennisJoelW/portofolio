@@ -1,4 +1,3 @@
-import {Navbar, Container, Nav} from "react-bootstrap";
 import "./navbar.css"
 import "../../../src/App.css"
 import emailIcon from "../../assets/email.png"

@@ -1,14 +1,11 @@
 import React from 'react'
 import { useState } from "react";
-import nova_img from "../../assets/NOVA.png"
 import resepku_img from "../../assets/RESEPKU.png"
 import { useNavigate } from 'react-router-dom';
-import nova_img2 from "../../assets/novaa.png";
-import sneakerz_img from "../../assets/sneakerz.png"
 import sneakerz_3 from "../../assets/sneakerz3.png"
 import sneakerz_ios from '../../assets/SNEAKERZ_MOBILE.png'
-import sneakerz_ios2 from '../../assets/SNEAKERZ_MOBILE_2.png'
 import nova_token from "../../assets/nova_token.png"
+import smartchat_img from '../../assets/smartchat.png'
 
 const Project = () => {
 
@@ -63,13 +60,13 @@ const Project = () => {
 
           <div className=' w-full flex md:flex-row flex-col md:gap-8 gap-8'>
 
-            <div onClick={() => navigateClick('/ProjectDetail')}
+            <div onClick={() => navigateClick('/Smartchat')}
                 className='md:w-1/2 w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer overflow-hidden justify-center items-center flex flex-col' 
                 onMouseOver={() => setHover1(true)} 
                 onMouseOut={() => setHover1(false)}>
 
-                <img src={sneakerz_3} className={ hover1 ? "rounded-t-2xl  transition-transform scale-105 duration-300 md:h-[84.5%]" : "rounded-t-2xl scale-100 transition-transform duration-300 md:h-[84.5%] h-[78%] w-full "} alt="" />
-                <h2 className={`my-4 px-6 ${hover1 ? "text-[#1ec8c8] transition-transform duration-300" : " text-white transition-transform duration-300"}`}>Sneakerz | Web App</h2>
+                <img src={smartchat_img} className={ hover1 ? "rounded-t-2xl  transition-transform scale-105 duration-300 md:h-[84.5%]" : "rounded-t-2xl scale-100 transition-transform duration-300 md:h-[84.5%] h-[78%] w-full "} alt="" />
+                <h2 className={`my-4 px-6 ${hover1 ? "text-[#1ec8c8] transition-transform duration-300" : " text-white transition-transform duration-300"}`}>SmartChat | Virtual Assistant Bot</h2>
               
             </div>
           
@@ -110,13 +107,13 @@ const Project = () => {
                 
               </div>
 
-              <div onClick={() => navigateClick('/')}
+              <div onClick={() => navigateClick('/ProjectDetail')}
                 className=' md:w-1/3 w-full h-full bg-[hsl(216,6%,25%)] rounded-2xl border-[hsl(216,6%,30%)] border-2 cursor-pointer md:overflow-hidden ' 
                 onMouseOver={() => setHover5(true)} 
                 onMouseOut={() => setHover5(false)}>
 
-                <img  className={ hover5 ? "rounded-t-2xl  transition-transform scale-105 duration-300 md:h-[82%] object-center object-cover" : " object-center object-cover md:h-[82%] rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
-                <h2 className={`px-6 my-3 ${hover5 ? "text-[#1ec8c8] transition-transform duration-300 md:h-[18%]" : "md:h-[18%] text-white transition-transform duration-300"} md:text-[15px]`}>Coming soon</h2>
+                <img src={sneakerz_3} className={ hover5 ? "rounded-t-2xl  transition-transform scale-105 duration-300 md:h-[82%] object-center object-cover" : " object-center object-cover md:h-[82%] rounded-t-2xl scale-100 transition-transform duration-300"} alt="" />
+                <h2 className={`px-6 my-3 ${hover5 ? "text-[#1ec8c8] transition-transform duration-300 md:h-[18%]" : "md:h-[18%] text-white transition-transform duration-300"} md:text-[15px]`}>Sneakerz | Web App</h2>
                 
               </div>
 
